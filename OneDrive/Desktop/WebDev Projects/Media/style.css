@@ -1,0 +1,55 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: greenyellow;
+}
+.box{
+    font-size: 60px;
+    text-align: center;
+    display: none;
+}
+/* NO box in display */
+@media screen and (min-width:425px) and (max-width:767px) {
+    body{
+        background-color:red ;
+    }
+    .box4{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body{
+        background-color:aqua ;
+    }
+    .box3{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    body{
+        background-color:chocolate ;
+    }
+    .box2{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:1440px) {
+    body{
+        background-color:darkgreen ;
+    }
+    .box1{
+        display: block;
+    }
+    
+    
+}
